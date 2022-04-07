@@ -4,7 +4,7 @@ Learn more about the pomodoro technique: https://en.wikipedia.org/wiki/Pomodoro_
 
 # Usage
 The flag "--times" is optional, the value is 1 by default.  
-Don't worry about how manye time you have left, the software may notificate you. 
+Don't worry about how many time you have left, the software may notificate you. 
 
 ![notification](https://github.com/HenMussa/PomoCLI/blob/main/screenshots/Screenshot.png)
 ![notificatuin2](https://github.com/HenMussa/PomoCLI/blob/main/screenshots/Screenshot02.png)

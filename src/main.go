@@ -16,7 +16,7 @@ func main() {
 	for i := 1; i <= *timesFlag; i++ {
 		// Starts the pomodoro timer and notifies the user 
 		fmt.Printf("Pomodoro %v started\n", i)
-		beeep.Notify("PomoCLI", "Pomodoro started", "pomocli/src/assets/clock.png")
+		beeep.Notify("PomoCLI", "Pomodoro started", "PomoCLI/src/assets/clock.png")
 		fmt.Println("25 minutes of focus!")
 		timer := time.NewTimer(25 * time.Minute)
 
@@ -27,7 +27,7 @@ func main() {
 			brTime = 15 * time.Minute
 		}
 		fmt.Printf("Break Time of %v!\n", brTime)
-		beeep.Notify("PomoCLI", "Break Time!", "pomocli/src/assets/break.jpg")
+		beeep.Notify("PomoCLI", "Break Time!", "PomoCLI/src/assets/break.jpg")
 		breakTimer := time.NewTimer(brTime)
 
 		<-breakTimer.C
